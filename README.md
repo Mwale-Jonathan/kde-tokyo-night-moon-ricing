@@ -8,9 +8,16 @@ KDE Plasma Ricing based on folke Tokyo Night Moon colors
 
 ```bash
 
-sudo mkdir -p ~/.local/share/konsole/
+mkdir -p ~/.local/share/konsole/
+
 cp tokyonight_moon.colorscheme ~/.local/share/konsole/
 cp TokyoNightMoon.profile ~/.local/share/konsole/
 
+```
+
+### 2. Plasma Colors
+
+```bash
+cp TokyoNightMoon.colors ~/.local/share/color-schemes/
 
 ```
